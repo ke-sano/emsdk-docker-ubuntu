@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  emsdk:
+    tty: true
+    build: ./build/docker/emsdk
+    volumes:
+      - ./app:/app
