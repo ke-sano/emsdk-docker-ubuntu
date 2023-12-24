@@ -36,6 +36,4 @@ RUN apt-get purge --auto-remove -y \
     xz-utils \
     emcc --version
 
-RUN emcc /app/sample/hello.cpp -o /app/sample/hello.html
-
 WORKDIR /app
