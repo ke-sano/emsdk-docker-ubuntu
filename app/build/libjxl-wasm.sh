@@ -17,10 +17,10 @@ cd libjxl
 BUILD_TARGET=wasm32 ENABLE_WASM_SIMD=1 emconfigure ./ci.sh release
 
 apt-get purge --auto-remove -y \
-    git \
-    cmake \
-    pkg-config \
-    ninja-build \
-    doxygen \
-    graphviz \
-    default-jre
+git \
+cmake \
+pkg-config \
+ninja-build \
+doxygen \
+graphviz \
+default-jre
